@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./Components/Home/home";
+import Navbar from "./Components/Navbar/navbar";
+import Footer from "./Components/Footer/footer";
+import Artificialintelligence from "./Components/ArtificialIntelligence/artificialintelligence";
+import Cloudservices from "./Components/CloudServices/cloudservices";
+import Speaktous from "./Components/Common/Speaktous/speaktous";
+import Technologyconsulting from "./Components/TechnologyConsulting/technologyconsulting";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <Navbar />
+        <>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/artificialintelligence" element={<Artificialintelligence />} />
+            <Route path="/cloudservices" element={<Cloudservices />} />
+            <Route path="/speaktous" element={<Speaktous />} />
+            <Route path="/technologyconsulting" element={<Technologyconsulting />} />
+          </Routes>
+        </>
+        <Footer />
+      </Router>
+    </>
   );
 }
 

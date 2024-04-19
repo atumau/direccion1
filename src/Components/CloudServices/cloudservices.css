@@ -1,0 +1,527 @@
+/* -------Cloud srvices ---------- */
+.cloud-poster {
+  padding-left: 120px;
+  padding-top: 60px;
+  padding-right: 120px;
+  padding-bottom: 25px;
+}
+.cloud-poster-head {
+  font-size: 40px;
+  font-weight: 700;
+}
+.cloud-poster-para {
+  line-height: 1.83;
+  font-size: 22px;
+  padding-bottom: 30px;
+  letter-spacing: 1px;
+}
+.custom-shape-divider-bottom-1713428901 {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1713428901 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 8px;
+}
+
+.custom-shape-divider-bottom-1713428901 .shape-fill {
+  fill: #e30d3c;
+}
+
+.cloud-black-poster {
+  padding: 90px;
+  background-color: #020202;
+}
+.cloud-black-poster-head {
+  color: #fff;
+
+  letter-spacing: 4px;
+  font-weight: 700;
+  line-height: 1.85;
+}
+.cloud-black-poster-span {
+  color: #e30d3c;
+}
+.cloud-main {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.cloud-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-div-cloud,
+.right-div-cloud {
+  flex: 1;
+  padding: 20px;
+}
+
+.image-ai-cloud {
+  max-width: 100%;
+  max-height: 100%;
+}
+.left-head-text-cloud {
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  line-height: 35px;
+  text-transform: uppercase;
+  font-size: 24px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+.left-head-text-span-cloud {
+  color: #e30d3c;
+  font-weight: 800;
+}
+
+.left-head-para-cloud {
+  font-weight: 200;
+  letter-spacing: 1px;
+  font-family: "Roboto", sans-serif;
+  color: #555;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.ai-button-cloud {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  background-color: red;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ai-button-cloud:hover {
+  background-color: #020202;
+}
+.custom-shape-divider-bottom-1713425454 {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1713425454 svg {
+  position: relative;
+  display: block;
+  width: calc(108% + 1.3px);
+  height: 61px;
+}
+
+.custom-shape-divider-bottom-1713425454 .shape-fill {
+  fill: #e30d3c;
+}
+
+/* ------- SAP support ---------- */
+.SAP-section {
+  background-color: #bcbcbc;
+}
+.ss-main {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.ss-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-div-ss,
+.right-div-ss {
+  flex: 1;
+  padding: 20px;
+}
+
+.image-ss {
+  max-width: 100%;
+  max-height: 100%;
+  border: 1px solid #e30d3c;
+  border-radius: 10px;
+}
+.left-head-text-ss {
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  line-height: 35px;
+  text-transform: uppercase;
+  font-size: 24px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+.left-head-text-span-ss {
+  color: #e30d3c;
+  font-weight: 800;
+}
+
+.left-head-para-ss {
+  font-weight: 200;
+  letter-spacing: 1px;
+  font-family: "Roboto", sans-serif;
+  color: #555;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.ss-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  background-color: red;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ss-button:hover {
+  background-color: #020202;
+}
+
+/*-----workday-support-------*/
+
+.workday-main {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+.workday-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+}
+
+.left-div-workday,
+.right-div-workday {
+  flex: 1;
+  padding: 20px;
+}
+
+.image-ai-workday {
+  max-height: 100%;
+  width: 40rem;
+  padding-left: 4rem;
+}
+.left-head-text-workday {
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  line-height: 35px;
+  text-transform: uppercase;
+  font-size: 24px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+.left-head-text-span-workday {
+  color: #e30d3c;
+  font-weight: 800;
+}
+
+.left-head-para-workday {
+  font-weight: 200;
+  letter-spacing: 1px;
+  font-family: "Roboto", sans-serif;
+  color: #555;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.ai-button-workday {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  background-color: red;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ai-button-workday:hover {
+  background-color: #020202;
+}
+
+/*--cube shape divider start--*/
+
+.shape-divider {
+  position: relative;
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+}
+
+.cube {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-color: #e30d3c;
+  transform: rotate(45deg);
+}
+
+.cube:nth-child(1) {
+  top: 25px;
+  left: -25px;
+}
+
+.cube:nth-child(2) {
+  top: 25px;
+  right: -25px;
+}
+/*--cube shape divider end--*/
+
+/*--Oracle support--*/
+
+.OS-section {
+  background-color: #ffffff;
+}
+.os-main {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.os-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-div-os,
+.right-div-os {
+  flex: 1;
+  padding: 20px;
+}
+
+.image-os {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+  animation: upDown 1s infinite alternate;
+}
+
+@keyframes upDown {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+.left-head-text-os {
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  line-height: 35px;
+  text-transform: uppercase;
+  font-size: 24px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+.left-head-text-span-os {
+  color: #e30d3c;
+  font-weight: 800;
+}
+
+.left-head-para-os {
+  font-weight: 200;
+  letter-spacing: 1px;
+  font-family: "Roboto", sans-serif;
+  color: #555;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.os-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  background-color: red;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.os-button:hover {
+  background-color: #020202;
+}
+.custom-shape-divider-bottom-1713435677 {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1713435677 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 73px;
+}
+
+.custom-shape-divider-bottom-1713435677 .shape-fill {
+  fill: #e30d3c;
+}
+
+/*--salesforce support--*/
+
+.salesforce-main {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.salesforce-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-div-salesforce,
+.right-div-salesforce {
+  flex: 1;
+  padding: 20px;
+}
+
+.image-ai-salesforce {
+  max-width: 100%;
+  max-height: 100%;
+}
+.left-head-text-salesforce {
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  line-height: 35px;
+  text-transform: uppercase;
+  font-size: 24px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+.left-head-text-span-salesforce {
+  color: #e30d3c;
+  font-weight: 800;
+}
+
+.left-head-para-salesforce {
+  font-weight: 200;
+  letter-spacing: 1px;
+  font-family: "Roboto", sans-serif;
+  color: #555;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.ai-button-salesforce {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  background-color: red;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ai-button-salesforce:hover {
+  background-color: #020202;
+}
+
+/* ------- square-divider-start ---------- */
+.container-divider-cloud {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.divider-cloud {
+  position: relative;
+  width: 200px;
+  height: 150px;
+}
+
+.line-cloud {
+  position: absolute;
+  background-color: black;
+}
+
+.horizontal-cloud {
+  width: 100%;
+  height: 2px;
+}
+
+.top-cloud {
+  top: 9px;
+  right: -80px;
+}
+
+.bottom-cloud {
+  bottom: 54px;
+  left: -140px;
+}
+
+.square-cloud {
+  position: absolute;
+  top: 0;
+  width: 40%;
+  height: 75px;
+  background-color: #e30d3c;
+}
+
+.second-cloud {
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40%;
+  height: 75px;
+  z-index: -1;
+}
+
+/* ------- square-divider-end ---------- */
