@@ -24,7 +24,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <img className="logo-img" src="log.png" alt="Logo" />
+        <img className="logo-img" src="dlogo.jpeg" alt="Logo" />
       </div>
       <div className="navbar-links">
         <ul className="navbar-ul">
@@ -35,24 +35,24 @@ const Navbar = () => {
           </li>
 
           <li className="dropdown">
-            <a href="#" className="dropbtn no-underline">
+            <a href="/aboutus" className="dropbtn no-underline">
               About Us
             </a>
             <div className="dropdown-content-2">
               <div className="dropdown-all-1">
-                <a className="dropdown-text" href="#">
+                <a className="dropdown-text" href="#purpose">
                   <FaGopuram className="nav-icon" />
                   Purpose
                 </a>
-                <a className="dropdown-text" href="#">
+                <a className="dropdown-text" href="#value">
                   <SiVala className="nav-icon" />
                   Value
                 </a>
-                <a className="dropdown-text" href="#">
+                <a className="dropdown-text" href="#team">
                   <BsMicrosoftTeams className="nav-icon" />
                   Team
                 </a>
-                <a className="dropdown-text" href="#">
+                <a className="dropdown-text" href="#why">
                   <FaDirections className="nav-icon" />
                   Why Direccion
                 </a>
@@ -139,12 +139,12 @@ const Navbar = () => {
           </li>
 
           <li>
-            <a className="link-text" href="#">
+            <a className="link-text" href="/deliverymodel">
               Delivery Model
             </a>
           </li>
           <li>
-            <a className="link-text" href="#">
+            <a className="link-text" href="/contactus">
               Contact Us
             </a>
           </li>

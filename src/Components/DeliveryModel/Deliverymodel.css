@@ -1,0 +1,330 @@
+/* -------Delivery model ...remote ---------- */
+.dm-poster {
+  padding-left: 120px;
+  padding-top: 60px;
+  padding-right: 120px;
+  padding-bottom: 25px;
+}
+.dm-poster-head {
+  font-size: 40px;
+  font-weight: 700;
+}
+.dm-poster-para {
+  line-height: 1.83;
+  font-size: 22px;
+  padding-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+.dm-black-poster {
+  padding: 90px;
+  background-color: #020202;
+  border-block-start: 8px solid white;
+}
+.dm-black-poster-head {
+  color: #fff;
+
+  letter-spacing: 5px;
+  font-weight: 700;
+}
+.dm-black-poster-para {
+  color: #e30d3c;
+  padding-top: 1rem;
+  font-size: 20px;
+  letter-spacing: 4px;
+  font-weight: 600;
+}
+.quote-section {
+  padding: 2rem;
+  background: linear-gradient(to top, #020202, #5c5c5c);
+  border-block-end: 8px solid white;
+}
+
+.quote-div-dm {
+  width: 80%;
+  margin: 50px auto;
+  text-align: center;
+  position: relative;
+}
+
+/* Glowing effect for the border */
+@keyframes glow2 {
+  0% {
+    border-color: #ffffff;
+    box-shadow: 0 0 10px #ffffff;
+  }
+  50% {
+    border-color: #e30d3c;
+    box-shadow: 0 0 20px #e30d3c;
+  }
+  100% {
+    border-color: #ffffff;
+    box-shadow: 0 0 10px #ffffff;
+  }
+}
+
+.quote-dm-text {
+  font-family: cursive;
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 700;
+  font-style: italic;
+  padding: 20px;
+  letter-spacing: 2px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  background-color: #000000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: pulse2 2s ease-in-out infinite alternate,
+    glow2 3s ease-in-out infinite;
+  filter: drop-shadow(2px 4px 6px white);
+}
+
+@keyframes pulse2 {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.dm-image {
+  width: 100%;
+  object-fit: contain;
+
+  height: auto;
+}
+
+.dm-main {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.dm-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-div-dm,
+.right-div-dm {
+  flex: 1;
+  padding: 20px;
+}
+
+.image-ai-dm {
+  max-width: 100%;
+  max-height: 100%;
+}
+.left-head-text-dm {
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  line-height: 35px;
+  text-transform: uppercase;
+  font-size: 24px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+.left-head-text-span-dm {
+  color: #e30d3c;
+  font-weight: 800;
+}
+
+.left-head-para-dm {
+  font-weight: 200;
+  letter-spacing: 1px;
+  font-family: "Roboto", sans-serif;
+  color: #555;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.ai-button-dm {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  background-color: red;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ai-button-dm:hover {
+  background-color: #020202;
+}
+
+/*-----Deploy-------*/
+
+.deploy-dm-section {
+  background-color: #000000;
+}
+.deploy-main {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+.deploy-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+}
+
+.left-div-deploy,
+.right-div-deploy {
+  flex: 1;
+  padding: 20px;
+}
+
+.image-ai-deploy {
+  max-height: 100%;
+  width: 40rem;
+  padding-left: 4rem;
+}
+.left-head-text-deploy {
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  line-height: 35px;
+  text-transform: uppercase;
+  font-size: 24px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+.left-head-text-span-deploy {
+  color: #e30d3c;
+  font-weight: 800;
+}
+
+.left-head-para-deploy {
+  font-weight: 200;
+  letter-spacing: 1px;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.ai-button-deploy {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  background-color: red;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ai-button-deploy:hover {
+  background-color: #020202;
+}
+
+/*--fussion--*/
+
+.fussion-dm-section {
+  background-color: #ffffff;
+}
+.fussion-main {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.fussion-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-div-fussion,
+.right-div-fussion {
+  flex: 1;
+  padding: 20px;
+}
+
+.image-fussion {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+}
+
+.left-head-text-fussion {
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  line-height: 35px;
+  text-transform: uppercase;
+  font-size: 24px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+.left-head-text-span-fussion {
+  color: #e30d3c;
+  font-weight: 800;
+}
+
+.left-head-para-fussion {
+  font-weight: 200;
+  letter-spacing: 1px;
+  font-family: "Roboto", sans-serif;
+  color: #555;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.fussion-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  background-color: red;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.fussion-button:hover {
+  background-color: #020202;
+}
+.custom-shape-divider-bottom-1713435677 {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1713435677 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 73px;
+}
+
+.custom-shape-divider-bottom-1713435677 .shape-fill {
+  fill: #e30d3c;
+}

@@ -62,13 +62,14 @@
 }
 
 .navbar-logo img {
-  height: 40px;
+  height: 50px;
+  width: 140px;
 }
 .logo-img {
   background-color: #f9f9f9;
   border-radius: 20px;
   filter: contrast(3.5);
-  border: 1px solid red;
+  
 }
 
 .navbar-links .navbar-ul {

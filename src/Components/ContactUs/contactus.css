@@ -1,0 +1,331 @@
+/* -----contact us ---------- */
+.contact-poster {
+  padding-left: 120px;
+  padding-top: 60px;
+  padding-right: 120px;
+  padding-bottom: 25px;
+}
+.contact-poster-head {
+  font-size: 40px;
+  font-weight: 700;
+}
+.contact-poster-para {
+  line-height: 1.83;
+  font-size: 22px;
+  padding-bottom: 30px;
+  letter-spacing: 1px;
+}
+.custom-shape-divider-bottom-1713428901 {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1713428901 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 8px;
+}
+
+.custom-shape-divider-bottom-1713428901 .shape-fill {
+  fill: #e30d3c;
+}
+
+.contact-black-poster {
+  padding: 90px;
+  background-color: #020202;
+  margin-top: 32px;
+}
+.contact-black-poster-head {
+  color: #fff;
+
+  letter-spacing: 4px;
+  font-weight: 700;
+  line-height: 1.85;
+}
+.contact-black-poster-span {
+  color: #e30d3c;
+}
+
+.container-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.contactus-main {
+  background-image: url("C:\Users\maury\Desktop\Direccion\direccion\public\pngegg (4).png"); /* Replace 'your-image-url.jpg' with the URL or path to your image */
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 5rem;
+  padding-top: 3rem;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-div-contact {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.right-div-contact {
+  flex: 1;
+  margin-left: 20px;
+}
+
+h2,
+h3 {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+.text-connect-all {
+  color: #e30d3c;
+  font-weight: 600;
+  font-family: Arial, sans-serif;
+}
+.text-connect-all-para {
+  font-weight: 200;
+}
+
+.contactus-heading-form {
+  display: inline-block;
+  font-size: 50px;
+  position: relative;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+.contactus-heading-text {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.contactus-heading-form::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  height: 2px;
+  background-color: #e30d3c;
+}
+
+.contactus-info-main {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contactus-info-logo {
+  background-color: #f0f0f0;
+  width: 83px;
+  height: 83px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  filter: drop-shadow(2px 4px 6px black);
+  transition: transform 0.3s ease;
+}
+
+.contactus-info-logo:hover {
+  transform: scale(1.1);
+}
+
+.icon-contactus {
+  width: 2.2rem;
+  height: auto;
+  color: #e30d3c;
+  padding-top: 10px;
+}
+
+.contactus-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  filter: drop-shadow(2px 4px 6px black);
+}
+
+.label-contactus {
+  font-weight: 400;
+}
+
+.contactus-input,
+.contactus-textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ef0505;
+  border-radius: 5px;
+}
+
+.contactus-submit {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.horizontal-contactus {
+  display: flex;
+  gap: 20px;
+}
+
+.contactus-submit {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  background-color: red;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contactus-submit:hover {
+  background-color: #020202;
+}
+
+.contact-us-container {
+  display: flex;
+  width: 100%;
+}
+
+.contact-left {
+  width: 70%;
+  position: relative;
+  height: 90vh;
+}
+
+.contact-right {
+  width: 30%;
+  position: relative;
+  border-left: 32px solid #f6f6f6;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  z-index: 2;
+  width: 80%;
+}
+.content-text {
+  color: #fff;
+  font-weight: 600;
+}
+.content-text-2 {
+  color: #fff;
+  font-weight: 200;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.contact-right img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+.contact-left img {
+  width: 180%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contact-left h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.contact-left p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.contact-left::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("C:\Users\maury\Desktop\Direccion\direccion\public\backg.jpg"); /* Replace with the path to your overlay image */
+}
+
+.contact-left::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.contact-right::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("C:\Users\maury\Desktop\Direccion\direccion\public\backg.jpg"); /* Replace with the path to your overlay image */
+  mix-blend-mode: overlay;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+  }
+  .left-div-contact,
+  .right-div-contact {
+    margin: 0;
+    width: 100%;
+  }
+}
+
+.custom-shape-divider-bottom-1713425454 {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1713425454 svg {
+  position: relative;
+  display: block;
+  width: calc(108% + 1.3px);
+  height: 61px;
+}
+
+.custom-shape-divider-bottom-1713425454 .shape-fill {
+  fill: #e30d3c;
+}

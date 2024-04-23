@@ -7,6 +7,9 @@ import Artificialintelligence from "./Components/ArtificialIntelligence/artifici
 import Cloudservices from "./Components/CloudServices/cloudservices";
 import Speaktous from "./Components/Common/Speaktous/speaktous";
 import Technologyconsulting from "./Components/TechnologyConsulting/technologyconsulting";
+import Contactus from "./Components/ContactUs/contactus";
+import Aboutus from "./Components/AboutUs/aboutus";
+import Deliverymodel from "./Components/DeliveryModel/Deliverymodel";
 
 function App() {
   return (
@@ -19,10 +22,14 @@ function App() {
             <Route path="/artificialintelligence" element={<Artificialintelligence />} />
             <Route path="/cloudservices" element={<Cloudservices />} />
             <Route path="/speaktous" element={<Speaktous />} />
+            <Route path="/contactus" element={<Contactus />} />
+            <Route path="/aboutus" element={<Aboutus />} />
+            <Route path="/deliverymodel" element={<Deliverymodel />} />
             <Route path="/technologyconsulting" element={<Technologyconsulting />} />
           </Routes>
         </>
         <Footer />
+
       </Router>
     </>
   );
