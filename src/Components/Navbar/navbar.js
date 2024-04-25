@@ -24,7 +24,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <img className="logo-img" src="dlogo.jpeg" alt="Logo" />
+        <img className="logo-img" src="logon.jpeg" alt="Logo" />
       </div>
       <div className="navbar-links">
         <ul className="navbar-ul">
