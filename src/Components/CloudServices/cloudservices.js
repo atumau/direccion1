@@ -6,11 +6,11 @@ const cloudservices = () => {
     <>
       <section id="cloud" className="cloud-section">
         <div className="cloud-poster">
-          <h1 className="cloud-poster-head">
+          <h1 className="cloud-poster-head"data-aos="fade-down">
             Embrace Cloud Services: Safeguarding Business for the Future through
             Cloud Adoption
           </h1>
-          <p className="cloud-poster-para">
+          <p className="cloud-poster-para"data-aos="fade-down">
             In today's era of disruption, Direccion recognizes the critical role
             of cloud technology as the cornerstone of digital agility,
             revolutionizing both our personal and professional landscapes. By
@@ -36,7 +36,7 @@ const cloudservices = () => {
           </svg>
         </div>
         <div className="cloud-black-poster">
-          <h1 className="cloud-black-poster-head text-center">
+          <h1 className="cloud-black-poster-head text-center"data-aos="fade-down">
             Bring Agility to Your Business With the Power of{" "}
             <span className="cloud-black-poster-span">Cloud Computation</span>
           </h1>
@@ -45,14 +45,14 @@ const cloudservices = () => {
         <div className="cloud-main container">
           <div className="container cloud-container">
             <div className="left-div-cloud">
-              <h2 className="left-head-text-cloud">
+              <h2 className="left-head-text-cloud"data-aos="fade-down">
                 Building models to increase your revenue{" "}
                 <span className="left-head-text-span-cloud">
                   Cloud Infrastruture
                 </span>
               </h2>
 
-              <p className="left-head-para-cloud">
+              <p className="left-head-para-cloud"data-aos="fade-down">
                 Within Direccion's domain, our Infrastructure Services, curated
                 by Direccion, present a distinct approach, interconnecting
                 solutions, services, and suppliers to deploy integrated
@@ -62,7 +62,7 @@ const cloudservices = () => {
               </p>
               <button className="ai-button-cloud">Lets Talk</button>
             </div>
-            <div className="right-div-cloud">
+            <div className="right-div-cloud"data-aos="flip-up">
               <img src="cc.jpg" alt="AI Image" className="image-ai-cloud" />
             </div>
           </div>
@@ -85,17 +85,17 @@ const cloudservices = () => {
       <section id="sapsupport" className="SAP-section">
         <div className="ss-main container">
           <div className="container ss-container">
-            <div className="right-div-ss">
-              <img src="sap.gif" alt="AI Image" className="image-ss" />
+            <div className="right-div-ss"data-aos="flip-up">
+              <img src="sap.jpg" alt="AI Image" className="image-ss" />
             </div>
             <div className="left-div-ss">
-              <h2 className="left-head-text-ss">
+              <h2 className="left-head-text-ss"data-aos="fade-down">
               AMPLIFYING CAPITAL GAINS VIA {" "}
                 <span className="left-head-text-span-ss">SAP SUPPORT</span>
                 : CRAFTING MODELS FOR REVENUE ESCALATION
               </h2>
 
-              <p className="left-head-para-ss">
+              <p className="left-head-para-ss"data-aos="fade-down">
                 Selecting the right SAP support partner can be daunting, but
                 Decrecion Company values strategic alliances. Birchman offers
                 comprehensive SAP support services tailored to diverse needs.
@@ -118,14 +118,14 @@ const cloudservices = () => {
         <div className="workday-main container">
           <div className="container workday-container">
             <div className="left-div-workday">
-              <h2 className="left-head-text-workday">
+              <h2 className="left-head-text-workday"data-aos="fade-down">
                 FORGING MODELS TO BOOST REVENUE WITH{" "}
                 <span className="left-head-text-span-workday">
                   WORKDAY SUPPORT
                 </span>
               </h2>
 
-              <p className="left-head-para-workday">
+              <p className="left-head-para-workday"data-aos="fade-down">
                 Within Direccion's realm, our Infrastructure Services, guided by
                 Direccion, offer a unique methodology, weaving together
                 solutions, services, and vendors to implement comprehensive
@@ -136,8 +136,8 @@ const cloudservices = () => {
               </p>
               <button className="ai-button-workday">Get Support</button>
             </div>
-            <div className="right-div-workday">
-              <img src="wd.gif" alt="AI Image" className="image-ai-workday" />
+            <div className="right-div-workday"data-aos="flip-up">
+              <img src="wd.jpg" alt="AI Image" className="image-ai-workday" />
             </div>
           </div>
         </div>
@@ -150,17 +150,17 @@ const cloudservices = () => {
       <section id="os" className="OS-section">
         <div className="os-main container">
           <div className="container os-container">
-            <div className="right-div-os">
+            <div className="right-div-os"data-aos="flip-up">
               <img src="os.gif" alt="AI Image" className="image-os" />
             </div>
             <div className="left-div-os">
-              <h2 className="left-head-text-os">
+              <h2 className="left-head-text-os"data-aos="fade-down">
                 OPTIMIZING OPERATIONS:{" "}
                 <span className="left-head-text-span-os">ORACLE SUPPORT</span>{" "}
                 TAILORED TO YOUR NEEDS
               </h2>
 
-              <p className="left-head-para-os">
+              <p className="left-head-para-os"data-aos="fade-down">
                 In Direccion's realm, our Infrastructure Services, meticulously
                 curated by Direccion, embody a distinctive approach, weaving
                 together solutions, services, and suppliers to seamlessly deploy
@@ -191,7 +191,7 @@ const cloudservices = () => {
         <div className="salesforce-main container">
           <div className="container salesforce-container">
             <div className="left-div-salesforce">
-              <h2 className="left-head-text-salesforce">
+              <h2 className="left-head-text-salesforce"data-aos="fade-down">
                 Empowering Your{" "}
                 <span className="left-head-text-span-salesforce">
                   Sales Force{" "}
@@ -199,7 +199,7 @@ const cloudservices = () => {
                 with Advanced Revenue Infrastructure Models
               </h2>
 
-              <p className="left-head-para-salesforce">
+              <p className="left-head-para-salesforce"data-aos="fade-down">
                 Within our Sales Force Support domain, our services,
                 meticulously curated by our seasoned team, embody a unique
                 approach. We intricately interconnect solutions, services, and
@@ -212,7 +212,7 @@ const cloudservices = () => {
               </p>
               <button className="ai-button-salesforce">Get Service</button>
             </div>
-            <div className="right-div-salesforce">
+            <div className="right-div-salesforce"data-aos="flip-up">
               <img
                 src="sfs.gif"
                 alt="AI Image"

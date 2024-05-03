@@ -1,8 +1,10 @@
 import React from "react";
 import Slider from "react-slick";
+import Chat from "../Chatbox/Chat";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "../Home/home.css";
+import { Link } from "react-router-dom";
 import { SiMarketo } from "react-icons/si";
 import { CgRemote } from "react-icons/cg";
 import { FaShareFromSquare } from "react-icons/fa6";
@@ -14,10 +16,7 @@ import { FaEdit } from "react-icons/fa";
 import { MdEmergencyShare } from "react-icons/md";
 import { MdSettingsVoice } from "react-icons/md";
 import { IoCameraReverseSharp } from "react-icons/io5";
-import { IoMdMailOpen } from "react-icons/io";
-import { IoCall } from "react-icons/io5";
-import { BsFillBuildingsFill } from "react-icons/bs";
-import { FaLocationDot } from "react-icons/fa6";
+
 const home = () => {
   return (
     <>
@@ -27,7 +26,7 @@ const home = () => {
             <section className="react-home-section">
               <div className="home-full">
                 <div className="home-left">
-                  <img className="img-home" src="home-ban.svg" alt="image" />
+                  <img className="img-home" src="home-ban.jpg" alt="image" />
                 </div>
                 <div className="content-home">
                   <h2 className="content-heading">
@@ -45,7 +44,7 @@ const home = () => {
             <section className="react-home-section">
               <div className="home-full">
                 <div className="home-left">
-                  <img className="img-home" src="home-ban3.svg" alt="image" />
+                  <img className="img-home" src="home-ban3.jpg" alt="image" />
                 </div>
                 <div className="content-home">
                   <h2 className="content-heading">
@@ -96,11 +95,13 @@ const home = () => {
           </svg>
         </div>
         <div className="container-key">
+        <Link to="/contactus">
           <button className="button-keyofferings">Contact Now</button>
-          <h2 className="key-offering-subheading text-center">
+          </Link>
+          <h2 className="key-offering-subheading text-center"data-aos="fade-down">
             Revolutionize your organization!
           </h2>
-          <h2 className="key-offering-subheading-2 text-center">
+          <h2 className="key-offering-subheading-2 text-center"data-aos="fade-down">
             We're driven by solving business challenges.
           </h2>
         </div>
@@ -121,8 +122,8 @@ const home = () => {
                   {/* Added text-center class here */}
                   <SiMarketo className="logo-home" />
                   <div className="see-work-text">
-                    <h5 className="card-title-see">Delivery Model</h5>
-                    <p className="card-text-see">
+                    <h5 className="card-title-see"data-aos="zoom-in">Delivery Model</h5>
+                    <p className="card-text-see"data-aos="zoom-in">
                       A streamlined delivery model optimizes efficiency and
                       customer satisfaction. Clear communication and prompt
                       service are key elements for success.
@@ -138,8 +139,8 @@ const home = () => {
                   {/* Added text-center class here */}
                   <CgRemote className="logo-home" />
                   <div className="see-work-text">
-                    <h5 className="card-title-see">Remote Delivery Model</h5>
-                    <p className="card-text-see">
+                    <h5 className="card-title-see"data-aos="zoom-in">Remote Delivery Model</h5>
+                    <p className="card-text-see"data-aos="zoom-in">
                       Our Remote Delivery Model offers full offshore project
                       deployment, giving clients the advantage of extended
                       working hours and competitive pricing.
@@ -155,8 +156,8 @@ const home = () => {
                   {/* Added text-center class here */}
                   <FaShareFromSquare className="logo-home" />
                   <div className="see-work-text">
-                    <h5 className="card-title-see">Fusion Delivery Model</h5>
-                    <p className="card-text-see">
+                    <h5 className="card-title-see"data-aos="zoom-in">Fusion Delivery Model</h5>
+                    <p className="card-text-see"data-aos="zoom-in">
                       Our Fusion Delivery Model combines Onsite and Offshore
                       project delivery seamlessly across all project phases and
                       cover all things.
@@ -172,8 +173,8 @@ const home = () => {
                   {/* Added text-center class here */}
                   <TfiMenuAlt className="logo-home" />
                   <div className="see-work-text">
-                    <h5 className="card-title-see">Deploy Delivery Model</h5>
-                    <p className="card-text-see">
+                    <h5 className="card-title-see"data-aos="zoom-in">Deploy Delivery Model</h5>
+                    <p className="card-text-see"data-aos="zoom-in">
                       Our Deploy Delivery Model offers a mixed deployment
                       approach with continuous onsite support for critical
                       project phases with offshore handling of deployment.
@@ -202,13 +203,13 @@ const home = () => {
         <div className="container-fluid bg-black">
           <div className="row">
             <div className="col-md-12">
-              <h2 className="about-head text-center">
+              <h2 className="about-head text-center"data-aos="fade-up">
                 <span className="span-about-head">About</span> Our Company
               </h2>
             </div>
           </div>
           <div className=" container para-group">
-            <p className="about-para text-center">
+            <p className="about-para text-center"data-aos="fade-up">
               Our impact is driven by the harmonious integration of finance and
               cutting-edge technology, utilizing a team of highly skilled and
               motivated finance professionals deeply versed in leading
@@ -216,7 +217,7 @@ const home = () => {
               value-added services, ensuring the success of our customers.
             </p>
 
-            <p className="about-para text-center">
+            <p className="about-para text-center"data-aos="fade-up">
               Our expertise in providing top-notch insights, advisory, and
               technology services empowers us to implement resilient, automated,
               and scalable finance technologies. This, in turn, achieves
@@ -225,7 +226,7 @@ const home = () => {
               internal and external stakeholders.
             </p>
 
-            <p className="about-para text-center">
+            <p className="about-para text-center"data-aos="fade-up">
               We excel in delivering services with profound expertise in the
               subject matter, deploying high-quality solutions rapidly,
               guaranteeing swift and competitive returns on investment for our
@@ -238,27 +239,29 @@ const home = () => {
               Reliable
             </p>
             <p className="about-para">
+              <MdGraphicEq className="logo-icon-about" /> We Get the Results
+            </p>
+            <p className="about-para">
               <BsChatRightTextFill className="logo-icon-about" /> 24 Hour
               Support
             </p>
-            <p className="about-para">
-              <MdGraphicEq className="logo-icon-about" /> We Get the Results
-            </p>
+           
           </div>
           <div className="image-group-about">
-            <img src="home-ban.svg" className="image-about" alt="image" />
-            <img src="home-ban2.svg" className="image-about" alt="image" />
-            <img src="home-ban3.svg" className="image-about" alt="image" />
+            <img src="sar1.svg" className="image-about" alt="image" />
+            <img src="sar3.svg" className="image-about" alt="image" />
+            <img src="sar2.svg" className="image-about" alt="image" />
+           
           </div>
         </div>
       </section>
       <section className="key-offer">
         <div className="key-offer-all">
-          <p className="key-offering-heading text-center">KEY OFFERINGS</p>
-          <h1 className="key-offer-head text-center">
+          <p className="key-offering-heading text-center"data-aos="fade-down">KEY OFFERINGS</p>
+          <h1 className="key-offer-head text-center"data-aos="fade-down">
             "Navigating Business Disruptions with
           </h1>
-          <h1 className="key-offer-head2 text-center">
+          <h1 className="key-offer-head2 text-center"data-aos="fade-down">
             Flexibility , Expertise, and Inventiveness"
           </h1>
         </div>
@@ -274,10 +277,10 @@ const home = () => {
       </section>
 
       <section className="what-we-do">
-        <h2 className="what-we-do-head text-center">
+        <h2 className="what-we-do-head text-center"data-aos="flip-up">
           What We do, We do <strong className="strong-head">Best!</strong>
         </h2>
-        <p className="what-we-do-subhead text-center">
+        <p className="what-we-do-subhead text-center"data-aos="flip-up">
           Our modest list of services to suit all your digital needs
         </p>
 
@@ -287,8 +290,8 @@ const home = () => {
               <div className="col-md-6">
                 <div className="what-we-do-item">
                   <FaEdit className="what-we-do-icon" />
-                  <h2>Advisory Services</h2>
-                  <p>
+                  <h2 data-aos="flip-up">Advisory Services</h2>
+                  <p data-aos="fade-down">
                     Advisory services encompass a range of consultative
                     offerings designed to guide organizations in the effective
                     utilization, implementation, and optimization. These
@@ -301,8 +304,8 @@ const home = () => {
               <div className="col-md-6">
                 <div className="what-we-do-item">
                   <MdEmergencyShare className="what-we-do-icon" />
-                  <h2>Process Consulting & Implementation</h2>
-                  <p>
+                  <h2 data-aos="flip-up">Process Consulting & Implementation</h2>
+                  <p data-aos="fade-down">
                     Process consulting and implementation involves a
                     comprehensive approach to analyze, design,and implement
                     business processes within an organization. This service
@@ -314,7 +317,7 @@ const home = () => {
           </div>
           <div className="image-ban">
             <img
-              src="home-ban.svg"
+              src="brain.jpg"
               alt="Image Between Divs"
               className="image-between-divs"
             />
@@ -325,8 +328,8 @@ const home = () => {
               <div className="col-md-6">
                 <div className="what-we-do-item">
                   <IoCameraReverseSharp className="what-we-do-icon" />
-                  <h2>Managed Services & Outsourcing</h2>
-                  <p>
+                  <h2 data-aos="flip-up">Managed Services & Outsourcing</h2>
+                  <p data-aos="fade-down">
                     Managed services and outsourcing provide organizations with
                     the opportunity to streamline operations, reduce costs, and
                     enhance overall efficiency. This allows businesses to focus
@@ -337,8 +340,8 @@ const home = () => {
               <div className="col-md-6">
                 <div className="what-we-do-item">
                   <MdSettingsVoice className="what-we-do-icon" />
-                  <h2>Training & Centre of Excellence</h2>
-                  <p>
+                  <h2 data-aos="flip-up">Training & Centre of Excellence</h2>
+                  <p data-aos="fade-down">
                     Establishing a Training & Centre of Excellence is a
                     strategic initiative that underscores an organization's
                     commitment to optimizing its investment and fostering
@@ -384,21 +387,21 @@ const home = () => {
             <span className="progress-label">DIGITAL TRANSFORMATION</span>
             <div className="progress-bar-container">
               <progress max="100" value="80"></progress>
-              <span className="progress-value">80%</span>
+              <span className="progress-value">75%</span>
             </div>
           </div>
           <div className="progress-bar-item">
             <span className="progress-label">CYBER SECURITY</span>
             <div className="progress-bar-container">
               <progress max="100" value="60"></progress>
-              <span className="progress-value">60%</span>
+              <span className="progress-value">80%</span>
             </div>
           </div>
           <div className="progress-bar-item">
             <span className="progress-label">ACCOUNTING ADVISORY</span>
             <div className="progress-bar-container">
               <progress max="100" value="90"></progress>
-              <span className="progress-value">90%</span>
+              <span className="progress-value">50%</span>
             </div>
           </div>
           <div className="progress-bar-item">
@@ -407,100 +410,19 @@ const home = () => {
             </span>
             <div className="progress-bar-container">
               <progress max="100" value="75"></progress>
-              <span className="progress-value">75%</span>
+              <span className="progress-value">70%</span>
             </div>
           </div>
           <div className="progress-bar-item">
             <span className="progress-label">SAP SUPPORT</span>
             <div className="progress-bar-container">
               <progress max="100" value="85"></progress>
-              <span className="progress-value">85%</span>
+              <span className="progress-value">59%</span>
             </div>
           </div>
         </div>
       </section>
       <section className="contact-detail-main">
-        <h1 className="contact-section-head text-center">
-          Let's <span className="contact-section-head-span">Connect</span>
-        </h1>
-        <p className="contact-section-para text-center">
-          Unlock solutions, contact us today for personalized assistance
-          tailored to your needs
-        </p>
-        <div className="contact-detail">
-          <div className="contact-section">
-            <div className="contact-info">
-              <h3 className="contact-info-head">
-                Our office <span className="contact-info-head-span">info</span>
-              </h3>
-              <div className="contact-info-div">
-                <p className="contact-info-detail">
-                  <IoMdMailOpen className="logo-contact" />
-                  info@Direccion.com
-                </p>
-                <p className="contact-info-detail">
-                  <IoCall className="logo-contact" />
-                  +91 1234567890
-                </p>
-                <p className="contact-info-detail">
-                  <BsFillBuildingsFill className="logo-contact" />
-                  502 New Victoria Building 103 Corporation Street Manchester M4
-                  4DZ
-                </p>
-                <p className="contact-info-detail">
-                  <FaLocationDot className="logo-contact" />
-                  United Kingdom
-                </p>
-              </div>
-              <p className="contact-info-detail2">
-                We require the contact information you share with us to reach
-                out regarding our products and services
-              </p>
-            </div>
-            <div className="contact-form">
-              <h3 className="contact-form-head">
-                Send us a{" "}
-                <span className="contact-form-head-span">Message</span>
-              </h3>
-              <div className="form-div">
-                <form>
-                  <div className="form-group">
-                    <label htmlFor="name">Name:</label>
-                    <input
-                      type="text"
-                      id="name"
-                      name="name"
-                      placeholder="Your Name"
-                      required
-                    />
-                  </div>
-                  <div className="form-group">
-                    <label htmlFor="email">Email:</label>
-                    <input
-                      type="email"
-                      id="email"
-                      name="email"
-                      placeholder="Your Email"
-                      required
-                    />
-                  </div>
-                  <div className="form-group">
-                    <label htmlFor="message">Message:</label>
-                    <textarea
-                      id="message"
-                      name="message"
-                      placeholder="Your Message"
-                      required
-                    />
-                  </div>
-                  <button className="send-button" type="submit">
-                    Send
-                  </button>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
         <div className="custom-shape-divider-bottom-1713336216">
           <svg
             data-name="Layer 1"
@@ -515,6 +437,7 @@ const home = () => {
           </svg>
         </div>
       </section>
+      <Chat/>
     </>
   );
 };

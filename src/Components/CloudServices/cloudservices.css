@@ -57,8 +57,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
-
 .left-div-cloud,
 .right-div-cloud {
   flex: 1;
@@ -68,6 +69,9 @@
 .image-ai-cloud {
   max-width: 100%;
   max-height: 100%;
+  border-left: 10px solid #e30d3c;
+  border-radius: 10px;
+  filter: drop-shadow(4px 6px 6px black);
 }
 .left-head-text-cloud {
   font-weight: 700;
@@ -157,8 +161,9 @@
 .image-ss {
   max-width: 100%;
   max-height: 100%;
-  border: 1px solid #e30d3c;
+  border-right: 10px solid #e30d3c;
   border-radius: 10px;
+  filter: drop-shadow(-2px 4px 6px black);
 }
 .left-head-text-ss {
   font-weight: 700;
@@ -227,9 +232,12 @@
 }
 
 .image-ai-workday {
+ 
+  max-width: 100%;
   max-height: 100%;
-  width: 40rem;
-  padding-left: 4rem;
+  border-left: 10px solid #e30d3c;
+  border-radius: 10px;
+  filter: drop-shadow(4px 6px 6px black);
 }
 .left-head-text-workday {
   font-weight: 700;
@@ -331,6 +339,7 @@
   max-height: 100%;
   border-radius: 10px;
   animation: upDown 1s infinite alternate;
+  filter: drop-shadow(2px 4px 6px red);
 }
 
 @keyframes upDown {
@@ -428,6 +437,9 @@
 .image-ai-salesforce {
   max-width: 100%;
   max-height: 100%;
+  border-left: 10px solid #e30d3c;
+  border-radius: 10px;
+  filter: drop-shadow(5px 5px 6px black);
 }
 .left-head-text-salesforce {
   font-weight: 700;

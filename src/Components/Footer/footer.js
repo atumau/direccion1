@@ -6,6 +6,7 @@ import { AiFillTwitterCircle } from "react-icons/ai";
 import { FaLinkedin, FaYoutube } from "react-icons/fa";
 import { SlCalender } from "react-icons/sl";
 import "../Footer/footer.css";
+import Chat from "../Chatbox/Chat";
 
 const Footer = () => {
   const [email, setEmail] = useState("");
@@ -123,6 +124,7 @@ const Footer = () => {
       <div className="legal">
         <p>Copyright © 2024 - direccion.in</p>
       </div>
+      <Chat/>
     </>
   );
 };

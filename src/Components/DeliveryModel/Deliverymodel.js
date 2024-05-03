@@ -5,12 +5,12 @@ const Deliverymodel = () => {
     <>
       <section id="dm" className="delivery-model-section">
         <div className="dm-poster">
-          <h1 className="dm-poster-head">
+          <h1 className="dm-poster-head"data-aos="fade-down">
             Direccion's Delivery model is tailored to meet the unique
             requirements of customers' EPM, Automation, and Analytics project
             life cycles
           </h1>
-          <p className="dm-poster-para">
+          <p className="dm-poster-para"data-aos="fade-down">
             Discover Direccion's tailored Delivery model, meticulously crafted
             to cater to the diverse needs of our customers' EPM, Automation, and
             Analytics project life cycles. At Direccion, we understand that
@@ -26,7 +26,7 @@ const Deliverymodel = () => {
         </div>
         <div className="quote-section">
           <div className="quote-div-dm">
-            <h3 className="quote-dm-text text-center">
+            <h3 className="quote-dm-text text-center"data-aos="fade-down">
               "Unrivaled Global Delivery Excellence: Tailored to Customers,
               All-Encompassing, and Unbeatable"
             </h3>
@@ -36,10 +36,10 @@ const Deliverymodel = () => {
           <img className="dm-image" src="dm.jpg" alt="image" />
         </div>
         <div className="dm-black-poster">
-          <h1 className="dm-black-poster-head text-center">
+          <h1 className="dm-black-poster-head text-center" data-aos="flip-down">
             What is Direccion Delivery Model?{" "}
           </h1>
-          <p className="dm-black-poster-para text-center">
+          <p className="dm-black-poster-para text-center" data-aos="flip-down">
             Direccion's Delivery Model is the most efficient, Hybrid Global
             Delivery Model conceptualized adopting a pragmatic and egile
             approach
@@ -49,7 +49,7 @@ const Deliverymodel = () => {
         <div className="dm-main container">
           <div className="container dm-container">
             <div className="left-div-dm">
-              <h2 className="left-head-text-dm">
+              <h2 className="left-head-text-dm"data-aos="fade-down">
                 Direccion's Offshore :{" "}
                 <span className="left-head-text-span-dm">
                   Remote Delivery Model
@@ -57,7 +57,7 @@ const Deliverymodel = () => {
                 Maximizing Efficiency and Cost-Effectiveness
               </h2>
 
-              <p className="left-head-para-dm">
+              <p className="left-head-para-dm"data-aos="fade-down">
                 At Direccion, our Offshore Remote Delivery Model is crafted to
                 provide clients with unmatched efficiency and cost-effectiveness
                 in project deployment. Leveraging offshore resources, we extend
@@ -72,8 +72,8 @@ const Deliverymodel = () => {
               </p>
               <button className="ai-button-dm">Lets Talk</button>
             </div>
-            <div className="right-div-dm">
-              <img src="rdm1.jpg" alt="AI Image" className="image-ai-dm" />
+            <div className="right-div-dm"data-aos="fade-down">
+              <img src="rdm.jpg" alt="AI Image" className="image-ai-dm" />
             </div>
           </div>
         </div>
@@ -83,7 +83,7 @@ const Deliverymodel = () => {
         <div className="deploy-main container">
           <div className="container deploy-container">
             <div className="left-div-deploy">
-              <h2 className="left-head-text-deploy">
+              <h2 className="left-head-text-deploy" data-aos="fade-up">
                 Direccion's{" "}
                 <span className="left-head-text-span-deploy">
                   Fusion Delivery Model:
@@ -91,7 +91,7 @@ const Deliverymodel = () => {
                 Seamlessly Integrating Onsite and Offshore Project Delivery
               </h2>
 
-              <p className="left-head-para-deploy">
+              <p className="left-head-para-deploy" data-aos="fade-up">
                 In our Fusion Delivery Model, onsite and offshore teams
                 collaborate seamlessly, maximizing efficiency and
                 cost-effectiveness. By leveraging local expertise and global
@@ -105,8 +105,8 @@ const Deliverymodel = () => {
               </p>
               <button className="ai-button-deploy">Get Support</button>
             </div>
-            <div className="right-div-deploy">
-              <img src="fdm.jpg" alt="AI Image" className="image-ai-deploy" />
+            <div className="right-div-deploy"data-aos="fade-down">
+              <img src="rdm2.jpg" alt="AI Image" className="image-ai-deploy" />
             </div>
           </div>
         </div>
@@ -115,11 +115,11 @@ const Deliverymodel = () => {
       <section id="fdm" className="fussion-dm-section">
         <div className="fussion-main container">
           <div className="container fussion-container">
-            <div className="right-div-fussion">
-              <img src="ddm.jpg" alt="AI Image" className="image-fussion" />
+            <div className="right-div-fussion"data-aos="fade-down">
+              <img src="ddm.svg" alt="AI Image" className="image-fussion" />
             </div>
             <div className="left-div-fussion">
-              <h2 className="left-head-text-fussion">
+              <h2 className="left-head-text-fussion"data-aos="fade-down">
                 Direccion's{" "}
                 <span className="left-head-text-span-fussion">
                   Deploy Delivery Model:
@@ -127,7 +127,7 @@ const Deliverymodel = () => {
                 Balancing Onsite Support with Offshore Efficiency
               </h2>
 
-              <p className="left-head-para-fussion">
+              <p className="left-head-para-fussion"data-aos="fade-down">
                 In our Deploy Delivery Model, we combine onsite support for
                 critical project phases with offshore handling of build and
                 deployment tasks. This mixed deployment approach ensures

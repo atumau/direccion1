@@ -1,0 +1,36 @@
+/* styles.css */
+.chat-component {
+    position: fixed;
+    bottom: 80px;
+    right: 30px;
+    
+    background-color: #f80606;
+    border: 2px solid #fdfdfd;
+    border-radius: 50%;
+    padding: 10px;
+    transition: transform 0.3s ease-in;
+  }
+  .chat-component2 {
+    position: fixed;
+    bottom: 145px;
+    right: 30px;
+    background-color: #f80606;
+    border: 2px solid #fdfdfd;
+    border-radius: 50%;
+    padding: 10px;
+    transition: transform 0.3s ease-in;
+}
+  .icon-chat{
+    width: 2rem;
+    height: auto;
+    color: #ffffff;
+    
+  }
+  .chat-component:hover{
+    transform: scale(1.2);
+    transform-style: preserve-3d;
+  }
+  .chat-component2:hover{
+    transform: scale(1.2);
+    transform-style: preserve-3d;
+  }

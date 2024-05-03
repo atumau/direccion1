@@ -6,11 +6,11 @@ const artificialintelligence = () => {
     <>
       <section id="ai" className="ai-section">
         <div className="ai-poster">
-          <h1 className="ai-poster-head">
+          <h1 className="ai-poster-head"data-aos="fade-down">
             Revolutionizing Advertising: Empowering Businesses with Artificial
             Intelligence - Direccion's Cutting-Edge Solutions
           </h1>
-          <p className="ai-poster-para">
+          <p className="ai-poster-para"data-aos="fade-down">
             Elevate your advertising game with Direccion's AI-powered solutions,
             reshaping strategies for maximum impact. Our innovative platform
             delivers actionable insights, optimizing targeting and
@@ -37,7 +37,7 @@ const artificialintelligence = () => {
           </svg>
         </div>
         <div className="ai-black-poster">
-          <h1 className="ai-black-poster-head text-center">
+          <h1 className="ai-black-poster-head text-center"data-aos="flip-up">
             Transforming Advertising Dynamics: Amplify Your Strategy with{" "}
             <span className="ai-black-poster-span">
               Artificial Intelligence
@@ -49,13 +49,13 @@ const artificialintelligence = () => {
         <div className="ai-main container">
           <div className="container ai-container">
             <div className="left-div">
-              <h2 className="left-head-text">
+              <h2 className="left-head-text"data-aos="fade-down">
                 Are you prepared for the future of{" "}
                 <span className="left-head-text-span">
                   Artificial Intelligence?
                 </span>
               </h2>
-              <p className="left-head-para">
+              <p className="left-head-para"data-aos="fade-down">
                 Decreccion AI’s extensive range of AI & Analytics services
                 empowers your organization to harness the complete
                 transformative potential of Data & AI on a large scale. By
@@ -66,8 +66,8 @@ const artificialintelligence = () => {
               </p>
               <button className="ai-button">Speak to us</button>
             </div>
-            <div className="right-div">
-              <img src="gif-1.gif" alt="AI Image" className="image-ai" />
+            <div className="right-div"data-aos="flip-up">
+              <img src="ai.jpg" alt="AI Image" className="image-ai" />
             </div>
           </div>
         </div>
@@ -88,17 +88,17 @@ const artificialintelligence = () => {
       <section id="ml" className="ml-section">
         <div className="ml-main container">
           <div className="container ml-container">
-            <div className="right-div-ml">
-              <img src="ml.gif" alt="AI Image" className="image-ml" />
+            <div className="right-div-ml"data-aos="flip-up">
+              <img src="ml.jpg" alt="AI Image" className="image-ml" />
             </div>
             <div className="left-div-ml">
-              <h2 className="left-head-text-ml">
+              <h2 className="left-head-text-ml"data-aos="fade-down">
                 <span className="left-head-text-ml-span">
                   Machine Learning:
                 </span>{" "}
                 Constructing models to boost your revenue
               </h2>
-              <p className="left-head-para-ml">
+              <p className="left-head-para-ml"data-aos="fade-down">
                 At Decreccion, we equip you with the latest advancements in
                 machine learning technology sourced from industry leaders like
                 Google, AWS, and Azure. Our comprehensive suite of tools enables
@@ -128,14 +128,14 @@ const artificialintelligence = () => {
         <div className="ai-main-bot container">
           <div className="container ai-container-bot">
             <div className="left-div-bot">
-              <h2 className="left-head-text-bot">
+              <h2 className="left-head-text-bot"data-aos="fade-down">
                 Automations via{" "}
                 <span className="left-head-text-span-bot">BOTS</span>
               </h2>
-              <h2 className="left-head-text-bot">
+              <h2 className="left-head-text-bot"data-aos="fade-down">
                 Save cost, bring efficiencies
               </h2>
-              <p className="left-head-para-bot">
+              <p className="left-head-para-bot"data-aos="fade-down">
                 At Decreccion, we specialize in delivering transformative
                 experiences within your applications through our Cognitive
                 Services and Bot Service offerings. Leveraging industry-leading
@@ -149,8 +149,8 @@ const artificialintelligence = () => {
               </p>
               <button className="ai-button-bot">Speak to us</button>
             </div>
-            <div className="right-div-bot">
-              <img src="bot.gif" alt="AI Image" className="image-ai-bot" />
+            <div className="right-div-bot"data-aos="flip-up">
+              <img src="bot.jpg" alt="AI Image" className="image-ai-bot" />
             </div>
           </div>
         </div>

@@ -5,11 +5,11 @@ const aboutus = () => {
     <>
       <section id="aboutus" className="about-section">
         <div className="about-poster">
-          <h1 className="about-poster-head">
+          <h1 className="about-poster-head"data-aos="fade-down">
             Innovating for a Connected Future with Purposeful Solutions and
             Exceptional Service
           </h1>
-          <p className="about-poster-para">
+          <p className="about-poster-para"data-aos="fade-down">
             At Direccion, we're driven by a passion for innovation and a
             commitment to excellence. With a focus on connectivity and
             purposeful solutions, we strive to shape the future by harnessing
@@ -35,7 +35,7 @@ const aboutus = () => {
           </svg>
         </div>
         <div className="about-black-poster">
-          <h1 className="about-black-poster-head text-center">
+          <h1 className="about-black-poster-head text-center"data-aos="flip-up">
             Crafting Innovative Solutions for a Connected World with{" "}
             <span className="about-black-poster-span">The Direccion</span>
           </h1>
@@ -44,13 +44,13 @@ const aboutus = () => {
         <div id="purpose" className="about-main container">
           <div className="container about-container">
             <div className="left-div-about">
-              <h2 className="left-head-text-about">
+              <h2 className="left-head-text-about"data-aos="fade-down">
                 Fostering Impactful Change Through Innovation and Dedication
                 with{" "}
                 <span className="left-head-text-span-about">Direccion</span>
               </h2>
 
-              <p className="left-head-para-about">
+              <p className="left-head-para-about"data-aos="fade-down">
                 At Direccion, our expertise lies at the intersection of AI,
                 development, and consulting solutions. Leveraging cutting-edge
                 technologies and deep industry insights, we empower businesses
@@ -65,9 +65,9 @@ const aboutus = () => {
               </p>
               <button className="ai-button-about">Lets Talk</button>
             </div>
-            <div className="right-div-about">
+            <div className="right-div-about"data-aos="flip-up">
               <img
-                src="purpose.webp"
+                src="purpose.jpg"
                 alt="AI Image"
                 className="image-ai-about"
               />
@@ -79,17 +79,17 @@ const aboutus = () => {
       <section id="value" className="value-section">
         <div className="value-main container">
           <div className="container value-container">
-            <div className="right-div-value">
+            <div className="right-div-value"data-aos="flip-up">
               <img src="value.jpg" alt="AI Image" className="image-value" />
             </div>
             <div className="left-div-value">
-              <h2 className="left-head-text-value">
+              <h2 className="left-head-text-value"data-aos="fade-down">
                 Our Core Principles Define the{" "}
                 <span className="left-head-text-span-value">Direccion</span>{" "}
                 Difference
               </h2>
 
-              <p className="left-head-para-value">
+              <p className="left-head-para-value"data-aos="fade-down">
                 At Direccion, our values serve as the bedrock of everything we
                 do. We are committed to fostering growth, driving innovation,
                 and delivering excellence in every endeavor. Integrity,
@@ -112,13 +112,13 @@ const aboutus = () => {
         <div className="team-main container">
           <div className="container team-container">
             <div className="left-div-team">
-              <h2 className="left-head-text-team">
+              <h2 className="left-head-text-team"data-aos="fade-down">
                 Discover the Talent Behind{" "}
                 <span className="left-head-text-span-team">Direccion:</span> Our
                 Dedicated Team Fueling Success
               </h2>
 
-              <p className="left-head-para-team">
+              <p className="left-head-para-team"data-aos="fade-down">
                 At Direccion, our team members are the heart and soul of our
                 company. Comprised of talented individuals from diverse
                 backgrounds, each member brings a unique set of skills,
@@ -134,8 +134,8 @@ const aboutus = () => {
               </p>
               <button className="ai-button-team">Contact us</button>
             </div>
-            <div className="right-div-team">
-              <img src="team.webp" alt="AI Image" className="image-ai-team" />
+            <div className="right-div-team"data-aos="flip-up">
+              <img src="team.jpg" alt="AI Image" className="image-ai-team" />
             </div>
           </div>
         </div>
@@ -149,11 +149,11 @@ const aboutus = () => {
       <section id="why" className="why-section">
         <div className="why-main container">
           <div className="container why-container">
-            <div className="right-div-why">
-              <img src="why.avif" alt="AI Image" className="image-why" />
+            <div className="right-div-why"data-aos="flip-up">
+              <img src="why.jpg" alt="AI Image" className="image-why" />
             </div>
             <div className="left-div-why">
-              <h2 className="left-head-text-why">
+              <h2 className="left-head-text-why"data-aos="fade-down">
                 Why{" "}
                 <span className="left-head-text-span-why">
                   Choose Direccion?
@@ -161,7 +161,7 @@ const aboutus = () => {
                 Discover Our Commitment to Excellence
               </h2>
 
-              <p className="left-head-para-why">
+              <p className="left-head-para-why"data-aos="fade-down">
                 At Direccion, we pride ourselves on our unwavering commitment to
                 excellence, evident in every aspect of our operations. Our
                 success is not just measured by achieving goals but by the

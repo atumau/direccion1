@@ -9,10 +9,10 @@ const contactus = () => {
     <>
       <section id="contact" className="contactus-section">
         <div className="contact-poster">
-          <h1 className="contact-poster-head">
+          <h1 className="contact-poster-head"data-aos="fade-down">
             Media & Press Inquiries: Get in Touch with Our Communications Team
           </h1>
-          <p className="contact-poster-para">
+          <p className="contact-poster-para"data-aos="fade-down">
             At Direccion, we value open communication and welcome your
             inquiries, feedback, and collaboration opportunities. Whether you
             have questions about our services, need assistance with a project,
@@ -28,11 +28,11 @@ const contactus = () => {
           <div className="contact-us-container">
             <div className="contact-left">
               <div className="content">
-                <h2 className="content-text">
+                <h2 className="content-text"data-aos="fade-right">
                   Reach out today for inquiries, support, or collaborations.
                   We're here to assist you every step of the way
                 </h2>
-                <p className="content-text-2">
+                <p className="content-text-2"data-aos="fade-left">
                   Contact us now and let's start a conversation. We're here to
                   help!
                 </p>
@@ -40,13 +40,13 @@ const contactus = () => {
               <div className="image-overlay"></div>
             </div>
             <div className="contact-right">
-              <img src="backg.jpg" alt="Contact" />
+              <img src="bac.jpg" alt="Contact" />
             </div>
           </div>
         </div>
 
         <div className="contact-black-poster">
-          <h1 className="contact-black-poster-head text-center">
+          <h1 className="contact-black-poster-head text-center"data-aos="flip-down">
             Connect with Direccion{" "}
             <span className="contact-black-poster-span">
               Reach Out to Us Today!
@@ -57,12 +57,14 @@ const contactus = () => {
         <div className="contactus-main container-fluid">
           <div className="container-3 contact-container">
             <div className="left-div-contact">
-              <h2 className="contactus-heading-form">Get in Touch</h2>
+              <h2 className="contactus-heading-form"data-aos="zoom-in">Get in Touch</h2>
               <div className="contactus-section">
                 <div className="contactus-info">
                   <div className="contactus-info-main">
                     <div className="contactus-info-logo">
-                      <p>
+                      <p data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
                         <MdEmail className="icon-contactus" />
                       </p>
                     </div>
@@ -75,7 +77,9 @@ const contactus = () => {
                   </div>
                   <div className="contactus-info-main">
                     <div className="contactus-info-logo">
-                      <p>
+                      <p data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
                         <FaAddressCard className="icon-contactus" />
                       </p>
                     </div>
@@ -91,7 +95,9 @@ const contactus = () => {
                   </div>
                   <div className="contactus-info-main">
                     <div className="contactus-info-logo">
-                      <p>
+                      <p data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
                         <FaPhoneVolume className="icon-contactus" />
                       </p>
                     </div>
@@ -102,7 +108,9 @@ const contactus = () => {
                   </div>
                   <div className="contactus-info-main">
                     <div className="contactus-info-logo">
-                      <p>
+                      <p data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
                         <FaLocationDot className="icon-contactus" />
                       </p>
                     </div>
@@ -115,7 +123,7 @@ const contactus = () => {
               </div>
             </div>
             <div className="right-div-contact">
-              <h2 className="contactus-heading-form">Write to us</h2>
+              <h2 className="contactus-heading-form"data-aos="zoom-in">Write to us</h2>
               <div className="contactus-form">
                 <p className="contactus-heading-text"> Start a conversation</p>
                 <form>

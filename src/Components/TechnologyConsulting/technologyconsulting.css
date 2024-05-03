@@ -70,6 +70,9 @@
 .image-ai-tech {
   max-width: 100%;
   max-height: 100%;
+  border-left: 10px solid #e30d3c;
+  border-radius: 10px;
+  filter: drop-shadow(4px 5px 5px black);
 }
 .left-head-text-tech {
   font-weight: 700;
@@ -159,6 +162,9 @@
 .image-cs {
   max-width: 100%;
   max-height: 100%;
+  border-right: 10px solid #e30d3c;
+  border-radius: 10px;
+  filter: drop-shadow(-3px 7px 4px black);
 }
 .left-head-text-cs {
   font-weight: 700;
@@ -232,6 +238,9 @@
 .image-ai-advisory {
   max-width: 100%;
   max-height: 100%;
+  border-left: 10px solid #e30d3c;
+  border-radius: 10px;
+  filter: drop-shadow(5px 4px 6px black);
 }
 .left-head-text-advisory {
   font-weight: 700;
@@ -304,6 +313,9 @@
 .image-pci {
   max-width: 100%;
   max-height: 100%;
+  border-right: 10px solid #e30d3c;
+  border-radius: 10px;
+  filter: drop-shadow(-4px 6px 4px black);
 }
 .left-head-text-pci {
   font-weight: 700;
@@ -477,6 +489,9 @@
 .image-ai-mso {
   max-width: 100%;
   max-height: 100%;
+  border-left: 10px solid #e30d3c;
+  border-radius: 10px;
+  filter: drop-shadow(4px 4px 7px black);
 }
 .left-head-text-mso {
   font-weight: 700;
@@ -568,6 +583,9 @@
 .image-tce {
   max-width: 100%;
   max-height: 100%;
+  border-right: 10px solid red;
+  border-radius: 10px;
+  filter: drop-shadow(-2px 6px 4px black);
 }
 .left-head-text-tce {
   font-weight: 700;

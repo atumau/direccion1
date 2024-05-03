@@ -6,11 +6,11 @@ const technologyconsulting = () => {
     <>
       <section id="tc" className="techconsulting-section">
         <div className="tech-poster">
-          <h1 className="tech-poster-head">
+          <h1 className="tech-poster-head"data-aos="fade-down">
             Revolutionary Strategy, Cutting-edge Technologies, and Innovation
             Guidance in Technology Consulting
           </h1>
-          <p className="tech-poster-para">
+          <p className="tech-poster-para"data-aos="fade-down">
             Technology is in a perpetual state of evolution, an unstoppable
             force by its very essence. Thus, the indispensable role of an
             innovation advisor becomes evident: crafting a bespoke strategy and
@@ -34,7 +34,7 @@ const technologyconsulting = () => {
           </svg>
         </div>
         <div className="tech-black-poster">
-          <h1 className="tech-black-poster-head text-center">
+          <h1 className="tech-black-poster-head text-center"data-aos="fade-down">
             Technology Consulting
           </h1>
         </div>
@@ -42,13 +42,13 @@ const technologyconsulting = () => {
         <div id="dt" className="tech-main container">
           <div className="container tech-container">
             <div className="left-div-tech">
-              <h2 className="left-head-text-tech">
+              <h2 className="left-head-text-tech"data-aos="fade-down">
                 Empowering Sustainable and Agile Profitable Growth Through{" "}
                 <span className="left-head-text-span-tech">
                   Digital Transformation
                 </span>
               </h2>
-              <p className="left-head-para-tech">
+              <p className="left-head-para-tech"data-aos="fade-down">
                 Our digital transformation solutions are meticulously designed
                 to harness the full potential of digital tools, ushering in a
                 new era of business excellence. We partner with clients to
@@ -62,8 +62,8 @@ const technologyconsulting = () => {
               </p>
               <button className="ai-button-tech">Lets Talk</button>
             </div>
-            <div className="right-div-tech">
-              <img src="dt.jpg" alt="AI Image" className="image-ai-tech" />
+            <div className="right-div-tech"data-aos="flip-up">
+              <img src="dt2.jpg" alt="AI Image" className="image-ai-tech" />
             </div>
           </div>
         </div>
@@ -84,17 +84,17 @@ const technologyconsulting = () => {
       <section id="cs" className="cyber-section">
         <div className="cs-main container">
           <div className="container cs-container">
-            <div className="right-div-cs">
-              <img src="cs.gif" alt="AI Image" className="image-cs" />
+            <div className="right-div-cs"data-aos="flip-up">
+              <img src="cs.jpg" alt="AI Image" className="image-cs" />
             </div>
             <div className="left-div-cs">
-              <h2 className="left-head-text-cs">
+              <h2 className="left-head-text-cs"data-aos="fade-down">
               STRENGTHENING YOUR ADVANCEMENT WITH  {" "}
                 <span className="left-head-text-span-cs">CYBERSECURITY</span>
                 {" "}Confidence
               </h2>
 
-              <p className="left-head-para-cs">
+              <p className="left-head-para-cs"data-aos="fade-down">
                 Within Decression suite of cybersecurity services, seasoned
                 consultants offer tailored solutions honed through expertise and
                 practical know-how. Our approach is rooted in understanding your
@@ -114,14 +114,14 @@ const technologyconsulting = () => {
         <div className="advisory-main container">
           <div className="container advisory-container">
             <div className="left-div-advisory">
-              <h2 className="left-head-text-advisory">
-              FUELING SUSTAINABLE AND AGILE PROFITABILITY VIA STRATEGIC 
+              <h2 className="left-head-text-advisory"data-aos="fade-down">
+              FUELING SUSTAINABLE AND AGILE PROFITABILITY VIA STRATEGIC {" "}
                 <span className="left-head-text-span-advisory">
                   ADVISORY
                 </span>
                 {" "}EXPERTISE
               </h2>
-              <p className="left-head-para-advisory">
+              <p className="left-head-para-advisory"data-aos="fade-down">
                 Our advisory services are meticulously crafted to unlock the
                 full potential of your business, ushering in a new era of
                 excellence. We collaborate closely with clients to harness
@@ -133,8 +133,8 @@ const technologyconsulting = () => {
               </p>
               <button className="ai-button-advisory">Lets Talk</button>
             </div>
-            <div className="right-div-advisory">
-              <img src="as.gif" alt="AI Image" className="image-ai-advisory" />
+            <div className="right-div-advisory"data-aos="flip-up">
+              <img src="ad.jpg" alt="AI Image" className="image-ai-advisory" />
             </div>
           </div>
         </div>
@@ -150,18 +150,18 @@ const technologyconsulting = () => {
       <section id="pci" className="process-consulting-section">
         <div className="pci-main container">
           <div className="container pci-container">
-            <div className="right-div-pci">
-              <img src="pci.gif" alt="AI Image" className="image-pci" />
+            <div className="right-div-pci"data-aos="flip-up">
+              <img src="pci.jpg" alt="AI Image" className="image-pci" />
             </div>
             <div className="left-div-pci">
-              <h2 className="left-head-text-pci">
+              <h2 className="left-head-text-pci"data-aos="fade-down">
                 EMPOWERING YOUR ORGANIZATIONAL EVOLUTION THROUGH STRATEGIC{" "}
                 <span className="left-head-text-span-pci">
                   PROCESS CONSULTING AND IMPLEMENTATION
                 </span>
               </h2>
 
-              <p className="left-head-para-pci">
+              <p className="left-head-para-pci"data-aos="fade-down">
                 Within our suite of process consulting and implementation
                 services, Decression brings seasoned consultants equipped with
                 tailored solutions crafted through extensive expertise and
@@ -193,14 +193,14 @@ const technologyconsulting = () => {
         <div className="mso-main container">
           <div className="container mso-container">
             <div className="left-div-mso">
-              <h2 className="left-head-text-mso">
+              <h2 className="left-head-text-mso"data-aos="fade-down">
               DRIVING SUSTAINABLE AND AGILE PROFITABILITY VIA  {" "}
                 <span className="left-head-text-span-mso">
                   managed services and outsourcing
                 </span>{" "}
                 INNOVATION
               </h2>
-              <p className="left-head-para-mso">
+              <p className="left-head-para-mso"data-aos="fade-down">
                 Managed services and outsourcing offer businesses the
                 opportunity to streamline operations, reduce costs, and focus on
                 core competencies. By entrusting specialized tasks to external
@@ -215,8 +215,8 @@ const technologyconsulting = () => {
               </p>
               <button className="ai-button-mso">Lets Talk</button>
             </div>
-            <div className="right-div-mso">
-              <img src="mso.gif" alt="AI Image" className="image-ai-mso" />
+            <div className="right-div-mso"data-aos="flip-up">
+              <img src="mso.jpg" alt="AI Image" className="image-ai-mso" />
             </div>
           </div>
         </div>
@@ -237,18 +237,18 @@ const technologyconsulting = () => {
       <section id="tce" className="training-section">
         <div className="tce-main container">
           <div className="container tce-container">
-            <div className="right-div-tce">
-              <img src="pse.gif" alt="AI Image" className="image-tce" />
+            <div className="right-div-tce"data-aos="flip-up">
+              <img src="pse.jpg" alt="AI Image" className="image-tce" />
             </div>
             <div className="left-div-tce">
-              <h2 className="left-head-text-tce">
+              <h2 className="left-head-text-tce"data-aos="fade-down">
                 Elevating Skills and Knowledge through{" "}
                 <span className="left-head-text-span-tce">
                   Training and Centers of Excellence
                 </span>
               </h2>
 
-              <p className="left-head-para-tce">
+              <p className="left-head-para-tce"data-aos="fade-down">
                 Decreccion, a trailblazer in innovation and progress, champions
                 excellence through its holistic training programs and Centers of
                 Excellence. With an unwavering commitment to fostering talent

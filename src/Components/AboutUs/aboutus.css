@@ -70,6 +70,10 @@
 .image-ai-about {
   max-width: 100%;
   max-height: 100%;
+  border-bottom: 10px solid #e30d3c;
+  border-right: 10px solid #e30d3c;
+  border-radius: 10px;
+  filter: drop-shadow(4px 6px 5px black);
 }
 .left-head-text-about {
   font-weight: 700;
@@ -178,8 +182,13 @@
 .image-value {
   max-width: 100%;
   max-height: 100%;
-  border: 1px solid #e30d3c;
+ 
+
+
+  border-bottom: 10px solid #e30d3c;
+  border-left: 10px solid #e30d3c;
   border-radius: 10px;
+  filter: drop-shadow(-3px 6px 3px black);
 }
 .left-head-text-value {
   font-weight: 700;
@@ -249,8 +258,12 @@
 
 .image-ai-team {
   max-height: 100%;
-  width: 40rem;
-  padding-left: 4rem;
+  max-width: 100%;
+
+  border-bottom: 10px solid red;
+  border-right: 10px solid red;
+  border-radius: 10px;
+  filter: drop-shadow(4px 6px 5px black);
 }
 .left-head-text-team {
   font-weight: 700;
@@ -350,10 +363,16 @@
 }
 
 .image-why {
+  animation: upDown 1s infinite alternate;
   max-width: 100%;
   max-height: 100%;
+ 
   border-radius: 10px;
-  animation: upDown 1s infinite alternate;
+
+  border-bottom: 10px solid #e30d3c;
+  border-left: 10px solid #e30d3c;
+  border-radius: 10px;
+  filter: drop-shadow(-3px 6px 3px black);
 }
 
 @keyframes upDown {

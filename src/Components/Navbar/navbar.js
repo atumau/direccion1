@@ -1,5 +1,6 @@
 import React from "react";
 import "../Navbar/navbar.css";
+import {Link} from 'react-router-dom'
 import { BsRobot } from "react-icons/bs";
 import { GiRobotGolem } from "react-icons/gi";
 import { TbDeviceImacUp } from "react-icons/tb";
@@ -24,7 +25,9 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
+      <Link to="/">
         <img className="logo-img" src="logon.jpeg" alt="Logo" />
+        </Link>
       </div>
       <div className="navbar-links">
         <ul className="navbar-ul">

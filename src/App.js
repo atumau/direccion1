@@ -1,5 +1,7 @@
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Home from "./Components/Home/home";
 import Navbar from "./Components/Navbar/navbar";
 import Footer from "./Components/Footer/footer";
@@ -10,7 +12,9 @@ import Technologyconsulting from "./Components/TechnologyConsulting/technologyco
 import Contactus from "./Components/ContactUs/contactus";
 import Aboutus from "./Components/AboutUs/aboutus";
 import Deliverymodel from "./Components/DeliveryModel/Deliverymodel";
-
+AOS.init({
+  duration: 1000,
+});
 function App() {
   return (
     <>
