@@ -142,10 +142,7 @@
 .value-section {
   position: relative;
   overflow: hidden;
-  background-image: url("C:\Users\maury\Desktop\Direccion\direccion\public\pngegg (4).png");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+ 
   height: 100vh; /* Adjust as needed */
 }
 
